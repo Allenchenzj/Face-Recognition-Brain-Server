@@ -39,7 +39,9 @@ const database = {
 	   password: 'bananas',
 	   entries: 0,
 	   joined: new Date()
-	  },
+	  }
+	]
+}
 	
 app.get('/', (req, res)=> {
   res.send(database.users);
